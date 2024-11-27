@@ -1,0 +1,19 @@
+{
+  "name": "tarea_13",
+  "version": "1.0.0",
+  "description": "Proyecto final de Programación Web 2.",
+  "main": "aplicacion.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tenorio Castilla Carlos Yael",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "ejs": "^3.1.10",
+    "express": "^4.21.1",
+    "materialize-css": "^1.0.0",
+    "mysql2": "^3.11.4"
+  },
+  "devDependencies": {}
+}
