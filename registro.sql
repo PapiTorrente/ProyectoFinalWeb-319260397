@@ -11,7 +11,7 @@ CREATE TABLE usuarios(
     edad        INTEGER(3)  NOT NULL,
     oficio      VARCHAR(20) NOT NULL,
     correo      VARCHAR(40) NOT NULL,
-    telefono    INTEGER(10) NOT NULL,
+    telefono    VARCHAR(10) NOT NULL,
     direccion   VARCHAR(50) NOT NULL,
 
 PRIMARY KEY(id_usr)

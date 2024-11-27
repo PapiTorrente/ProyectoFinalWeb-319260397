@@ -1,0 +1,8 @@
+-- IP DE LA PC REMOTA --
+192.168.1.85
+
+-- IP DEL SERVIDOR LINUX --
+192.168.1.183
+
+sst torrente@192.168.1.183
+

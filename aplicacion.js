@@ -16,7 +16,7 @@ app.set('view engine', 'ejs');
 //Conexión a la base de datos
 const db = mysql.createConnection({
     host: 'localhost',
-    user: 'root', // tu usuario de MySQL
+    user: 'torrente', // tu usuario de MySQL
     password: '1234', // tu contraseña de MySQL
     database: 'registros',
     port: 3306
@@ -33,7 +33,8 @@ db.connect(err => {
 });
 
 //INICIALIZACIÓN DEL SERVER
-const port = 3006;
+const hostname='192.168.1.183';
+const port = 3309;
 app.listen(port,()=>{
     console.log(`Servidor en funcionamiento desde http://localhost:${port}`);
 });
